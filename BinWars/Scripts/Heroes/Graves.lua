@@ -67,7 +67,7 @@ function CastSpell(self,spellIndex,x,y)
                 spell.manaCost = 0
                 --spell.setFacing = true (4F)
                 spell.animation = true
-                --dash
+                spell:SetDash(x,y,1233.626709)--dash
                 spell:AddParticle(self,self,'Graves_Move_OnBuffActivate.troy',0.25)
                 spell:AddBuff(2,'gravesmovesteroid',4.0,1) --Stacks: 1, Visible: 0]]
                 
