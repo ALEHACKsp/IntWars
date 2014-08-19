@@ -7,7 +7,9 @@ function CastSpell(self,spellIndex,x,y)
                 spell.manaCost = 0
 
                 spell:AddMissile(self,'EzrealMysticShotMissile',0.25)
-                spell:AddParticle(self,self,'Ezreal_bow.troy',0.25)
+                p1 = spell:AddParticle(self,self,'Ezreal_bow.troy',0.25)
+                p1.x = x-100
+                p1.y = y-100
                 
                 self:QueueSpell(spell)
                 --[[self:SetupSpell(1)
