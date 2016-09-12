@@ -1,5 +1,10 @@
 RipWars
 ==================
+
+Updates
+------
+Check http://leaguesandbox.com/forum/thread-291.html for latest developments.
+
 About
 ------
 Fork of the 2 years old outdated project, emulates LoL server environment
